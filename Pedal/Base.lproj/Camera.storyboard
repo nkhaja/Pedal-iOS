@@ -325,7 +325,7 @@
                                     <action selector="cameraButtonPressed:" destination="fFW-xp-yng" eventType="touchUpInside" id="nth-7e-S2E"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dX3-Bc-652">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yourImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dX3-Bc-652">
                                 <rect key="frame" x="190" y="395" width="154" height="205"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.  Hit 'Camera' and take a Photo" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBJ-xw-nXs">
@@ -524,7 +524,7 @@
                                     <action selector="standingButtonPressed:" destination="YO5-Ff-bUP" eventType="touchUpInside" id="R90-px-vPb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FOe-i0-Q8T">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yourImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FOe-i0-Q8T">
                                 <rect key="frame" x="190" y="354" width="154" height="205"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.  Hit 'Camera' and take a Photo" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehI-z1-Fop">
