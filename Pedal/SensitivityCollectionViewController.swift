@@ -15,6 +15,8 @@ class SensitivityCollectionViewController: UIViewController {
     var leftData: [UIImage] = []
     var rightData: [UIImage] = []
     
+    var dates: [String] = []
+    
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var collectionView: UICollectionView!
 
@@ -28,7 +30,18 @@ class SensitivityCollectionViewController: UIViewController {
             leftData.append(c.left!.lowSense.toPicture()!)
             rightData.append(c.right!.highSense.toPicture()!)
             rightData.append(c.right!.lowSense.toPicture()!)
+            
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateStyle = .long
+            dates.append(dateFormatter.string(from: c.date))
+            dates.append(dateFormatter.string(from: c.date))
         }
+        
+        
+        
+   
+        
+        
         
 
         // Do any additional setup after loading the view.
@@ -55,6 +68,10 @@ extension SensitivityCollectionViewController:UICollectionViewDelegate, UICollec
         let row = indexPath.row
         let leftSelected = segmentedControl.selectedSegmentIndex == 0
         
+        cell.dateLabel.text! = dates[row]
+
+
+        
         if leftSelected {
             cell.imageView.image = leftData[indexPath.row]
         }
@@ -63,11 +80,11 @@ extension SensitivityCollectionViewController:UICollectionViewDelegate, UICollec
         }
         
         if row % 2 == 0 {
-            cell.label.text! = "Low Sensitivity"
+            cell.senseLabel.text! = "Low Sensitivity"
         }
         
         else{
-            cell.label.text! = "High Sensitivity"
+            cell.senseLabel.text! = "High Sensitivity"
         }
         
       return cell

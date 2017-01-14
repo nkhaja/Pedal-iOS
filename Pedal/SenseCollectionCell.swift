@@ -10,7 +10,8 @@ import UIKit
 
 class SenseCollectionCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var senseLabel: UILabel!
+    @IBOutlet weak var dateLabel:UILabel!
     
     
 }
