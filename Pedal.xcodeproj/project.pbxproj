@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07867EF06B998BB5BC465D14 /* Pods_PedalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4590BEE79A332498D018B5 /* Pods_PedalUITests.framework */; };
+		65374B2B5C8C68D509F91A0A /* Pods_Pedal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AAC5DE80E4C497E550F7E8 /* Pods_Pedal.framework */; };
+		BD5A420A1E236092007EB1B0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5A42091E236092007EB1B0 /* SettingsViewController.swift */; };
+		E007ADA61E288E86002A3979 /* NoCheckupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E007ADA51E288E86002A3979 /* NoCheckupsViewController.swift */; };
+		E00E222A1DFF2F3600442D0E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E22291DFF2F3600442D0E /* Helper.swift */; };
+		E00E222E1DFF3B2A00442D0E /* SmothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E222D1DFF3B2A00442D0E /* SmothView.swift */; };
+		E00E22301DFF8E3900442D0E /* SensitivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E222F1DFF8E3900442D0E /* SensitivityViewController.swift */; };
+		E0224C781DF7955700BA4D95 /* Foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0224C771DF7955700BA4D95 /* Foot.swift */; };
+		E0224C7C1DF9DF6200BA4D95 /* PulseQ1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0224C7B1DF9DF6200BA4D95 /* PulseQ1ViewController.swift */; };
+		E0224C7E1DF9E93D00BA4D95 /* PulseQ2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0224C7D1DF9E93D00BA4D95 /* PulseQ2ViewController.swift */; };
+		E0224C801DF9ECCD00BA4D95 /* PulseQ3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0224C7F1DF9ECCD00BA4D95 /* PulseQ3ViewController.swift */; };
+		E03A128A1DF7432F00C27298 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12891DF7432F00C27298 /* Pulse.swift */; };
+		E03A12941DF744EA00C27298 /* StorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12931DF744EA00C27298 /* StorageController.swift */; };
+		E03A129A1DF746AB00C27298 /* Checkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12991DF746AB00C27298 /* Checkup.swift */; };
+		E03A129C1DF7475D00C27298 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A129B1DF7475D00C27298 /* Patient.swift */; };
+		E03A12A21DF76CD200C27298 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E03A129F1DF76CD200C27298 /* Comfortaa-Bold.ttf */; };
+		E03A12A31DF76CD200C27298 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E03A12A01DF76CD200C27298 /* Comfortaa-Light.ttf */; };
+		E03A12A41DF76CD200C27298 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E03A12A11DF76CD200C27298 /* Comfortaa-Regular.ttf */; };
+		E03A12A81DF76F8600C27298 /* PedalLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = E03A12A71DF76F8600C27298 /* PedalLogoWhite.png */; };
+		E03A12AA1DF76FF400C27298 /* PedalLogoRed.png in Resources */ = {isa = PBXBuildFile; fileRef = E03A12A91DF76FF400C27298 /* PedalLogoRed.png */; };
+		E04740EB1E296C76002CC207 /* NewPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04740EA1E296C76002CC207 /* NewPatientViewController.swift */; };
+		E04740EE1E29D899002CC207 /* Records.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04740EC1E29D899002CC207 /* Records.storyboard */; };
+		E04740F11E29D981002CC207 /* Pulse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04740EF1E29D981002CC207 /* Pulse.storyboard */; };
+		E04740F41E29D9B6002CC207 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04740F21E29D9B6002CC207 /* Camera.storyboard */; };
+		E04740F71E29DE05002CC207 /* Sensitivity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04740F51E29DE05002CC207 /* Sensitivity.storyboard */; };
+		E06D97DF1DF0D65F00BC31B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */; };
+		E06D97E11DF0D65F00BC31B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D97E01DF0D65F00BC31B9 /* ViewController.swift */; };
+		E06D97E41DF0D65F00BC31B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06D97E21DF0D65F00BC31B9 /* Main.storyboard */; };
+		E06D97E71DF0D65F00BC31B9 /* Pedal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E06D97E51DF0D65F00BC31B9 /* Pedal.xcdatamodeld */; };
+		E06D97E91DF0D65F00BC31B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06D97E81DF0D65F00BC31B9 /* Assets.xcassets */; };
+		E06D97EC1DF0D65F00BC31B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06D97EA1DF0D65F00BC31B9 /* LaunchScreen.storyboard */; };
+		E06D97F71DF0D65F00BC31B9 /* PedalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D97F61DF0D65F00BC31B9 /* PedalTests.swift */; };
+		E06D98021DF0D65F00BC31B9 /* PedalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D98011DF0D65F00BC31B9 /* PedalUITests.swift */; };
+		E07512DB1E00890900E35AED /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07512D11E00890900E35AED /* CategoryCollectionViewCell.swift */; };
+		E07512DC1E00890900E35AED /* CheckupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07512D21E00890900E35AED /* CheckupCollectionViewCell.swift */; };
+		E07512DD1E00890900E35AED /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07512D31E00890900E35AED /* Email.swift */; };
+		E07512DE1E00890900E35AED /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07512D41E00890900E35AED /* LineChart.swift */; };
+		E07512DF1E00890900E35AED /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07512D51E00890900E35AED /* PulseView.swift */; };
+		E07512E01E00890900E35AED /* PulseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07512D61E00890900E35AED /* PulseViewController.swift */; };
+		E07512E11E00890900E35AED /* RecordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07512D71E00890900E35AED /* RecordsTableViewCell.swift */; };
+		E07512E21E00890900E35AED /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07512D81E00890900E35AED /* RecordsViewController.swift */; };
+		E07512E31E00890900E35AED /* SeeCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07512D91E00890900E35AED /* SeeCategoryViewController.swift */; };
+		E07512E41E00890900E35AED /* SeeCheckupCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07512DA1E00890900E35AED /* SeeCheckupCollectionViewController.swift */; };
+		E0A3EC711E012BF1003D981B /* LeftFootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A3EC701E012BF1003D981B /* LeftFootViewController.swift */; };
+		E0A3EC741E012D8D003D981B /* leftFoot.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A3EC721E012D8D003D981B /* leftFoot.png */; };
+		E0A3EC751E012D8D003D981B /* rightFoot.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A3EC731E012D8D003D981B /* rightFoot.png */; };
+		E0A3EC781E01CB19003D981B /* cog.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A3EC761E01CB19003D981B /* cog.png */; };
+		E0A3EC791E01CB19003D981B /* cogs.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A3EC771E01CB19003D981B /* cogs.png */; };
+		E0A3EC7B1E01D874003D981B /* cogs_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A3EC7A1E01D874003D981B /* cogs_white.png */; };
+		E0A3EC7D1E023EA2003D981B /* LowSenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A3EC7C1E023EA2003D981B /* LowSenseViewController.swift */; };
+		E0B52B591DFA93C300CCCA65 /* palmFeet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0B52B581DFA93C300CCCA65 /* palmFeet.jpg */; };
+		E0B52B5C1DFB419800CCCA65 /* ankle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0B52B5A1DFB419800CCCA65 /* ankle.jpg */; };
+		E0B52B5F1DFB42F400CCCA65 /* ankleInstructions.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B52B5E1DFB42F400CCCA65 /* ankleInstructions.png */; };
+		E0B52B611DFB444D00CCCA65 /* AnkleInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B52B601DFB444D00CCCA65 /* AnkleInstructionsViewController.swift */; };
+		E0B52B631DFB46D500CCCA65 /* AnkleCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B52B621DFB46D500CCCA65 /* AnkleCameraViewController.swift */; };
+		E0B52B651DFB4B2B00CCCA65 /* standingInstructions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0B52B641DFB4B2B00CCCA65 /* standingInstructions.jpg */; };
+		E0B52B671DFB4D8E00CCCA65 /* StandingInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B52B661DFB4D8E00CCCA65 /* StandingInstructionsViewController.swift */; };
+		E0B52B691DFB563C00CCCA65 /* standing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0B52B681DFB563C00CCCA65 /* standing.jpg */; };
+		E0B52B6B1DFB565500CCCA65 /* StandingCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B52B6A1DFB565500CCCA65 /* StandingCameraViewController.swift */; };
+		E0B52B6D1DFB7D2700CCCA65 /* SensitivityInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B52B6C1DFB7D2700CCCA65 /* SensitivityInstructionsViewController.swift */; };
+		E0B9DFA71DF9F1CE00709D97 /* palmFoot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0B9DFA61DF9F1CE00709D97 /* palmFoot.jpg */; };
+		E0B9DFA91DF9F6AB00709D97 /* PalmCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9DFA81DF9F6AB00709D97 /* PalmCameraViewController.swift */; };
+		E0B9DFAB1DFA12D500709D97 /* PulseInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9DFAA1DFA12D500709D97 /* PulseInstructionsViewController.swift */; };
+		E0B9DFAD1DFA17BD00709D97 /* PalmInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B9DFAC1DFA17BD00709D97 /* PalmInstructionsViewController.swift */; };
+		EDB9730DF6D977E3D8197E84 /* Pods_PedalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059609FEBDFE78B33CDCF952 /* Pods_PedalTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E06D97F31DF0D65F00BC31B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E06D97D31DF0D65F00BC31B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E06D97DA1DF0D65F00BC31B9;
+			remoteInfo = Pedal;
+		};
+		E06D97FE1DF0D65F00BC31B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E06D97D31DF0D65F00BC31B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E06D97DA1DF0D65F00BC31B9;
+			remoteInfo = Pedal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059609FEBDFE78B33CDCF952 /* Pods_PedalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PedalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3FAAEF4B85F745FB1A84D1 /* Pods-Pedal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pedal/Pods-Pedal.debug.xcconfig"; sourceTree = "<group>"; };
+		1C870F4C2CE47838110B5C18 /* Pods-Pedal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pedal/Pods-Pedal.release.xcconfig"; sourceTree = "<group>"; };
+		231C177AF5F324497815513E /* Pods-PedalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PedalTests/Pods-PedalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C050A260E0EA5F88263EBA0 /* Pods-PedalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PedalTests/Pods-PedalTests.release.xcconfig"; sourceTree = "<group>"; };
+		72AAC5DE80E4C497E550F7E8 /* Pods_Pedal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pedal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4590BEE79A332498D018B5 /* Pods_PedalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PedalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B1E5517927E97829FC3978 /* Pods-PedalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PedalUITests/Pods-PedalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD5A42091E236092007EB1B0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BE20F2ED48788F069C8C244F /* Pods-PedalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PedalUITests/Pods-PedalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E007ADA51E288E86002A3979 /* NoCheckupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoCheckupsViewController.swift; sourceTree = "<group>"; };
+		E00E22291DFF2F3600442D0E /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E00E222D1DFF3B2A00442D0E /* SmothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmothView.swift; sourceTree = "<group>"; };
+		E00E222F1DFF8E3900442D0E /* SensitivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensitivityViewController.swift; sourceTree = "<group>"; };
+		E0224C771DF7955700BA4D95 /* Foot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foot.swift; sourceTree = "<group>"; };
+		E0224C7B1DF9DF6200BA4D95 /* PulseQ1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseQ1ViewController.swift; sourceTree = "<group>"; };
+		E0224C7D1DF9E93D00BA4D95 /* PulseQ2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseQ2ViewController.swift; sourceTree = "<group>"; };
+		E0224C7F1DF9ECCD00BA4D95 /* PulseQ3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseQ3ViewController.swift; sourceTree = "<group>"; };
+		E03A12891DF7432F00C27298 /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
+		E03A12931DF744EA00C27298 /* StorageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageController.swift; sourceTree = "<group>"; };
+		E03A12991DF746AB00C27298 /* Checkup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkup.swift; sourceTree = "<group>"; };
+		E03A129B1DF7475D00C27298 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		E03A129F1DF76CD200C27298 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		E03A12A01DF76CD200C27298 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		E03A12A11DF76CD200C27298 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		E03A12A71DF76F8600C27298 /* PedalLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PedalLogoWhite.png; sourceTree = "<group>"; };
+		E03A12A91DF76FF400C27298 /* PedalLogoRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PedalLogoRed.png; sourceTree = "<group>"; };
+		E04740EA1E296C76002CC207 /* NewPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPatientViewController.swift; sourceTree = "<group>"; };
+		E04740ED1E29D899002CC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Records.storyboard; sourceTree = "<group>"; };
+		E04740F01E29D981002CC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Pulse.storyboard; sourceTree = "<group>"; };
+		E04740F31E29D9B6002CC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Camera.storyboard; sourceTree = "<group>"; };
+		E04740F61E29DE05002CC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Sensitivity.storyboard; sourceTree = "<group>"; };
+		E06D97DB1DF0D65F00BC31B9 /* Pedal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E06D97E01DF0D65F00BC31B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E06D97E31DF0D65F00BC31B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E06D97E61DF0D65F00BC31B9 /* Pedal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pedal.xcdatamodel; sourceTree = "<group>"; };
+		E06D97E81DF0D65F00BC31B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E06D97EB1DF0D65F00BC31B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E06D97ED1DF0D65F00BC31B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06D97F21DF0D65F00BC31B9 /* PedalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06D97F61DF0D65F00BC31B9 /* PedalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalTests.swift; sourceTree = "<group>"; };
+		E06D97F81DF0D65F00BC31B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06D97FD1DF0D65F00BC31B9 /* PedalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06D98011DF0D65F00BC31B9 /* PedalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalUITests.swift; sourceTree = "<group>"; };
+		E06D98031DF0D65F00BC31B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07512D11E00890900E35AED /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E07512D21E00890900E35AED /* CheckupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckupCollectionViewCell.swift; sourceTree = "<group>"; };
+		E07512D31E00890900E35AED /* Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		E07512D41E00890900E35AED /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		E07512D51E00890900E35AED /* PulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
+		E07512D61E00890900E35AED /* PulseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseViewController.swift; sourceTree = "<group>"; };
+		E07512D71E00890900E35AED /* RecordsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsTableViewCell.swift; sourceTree = "<group>"; };
+		E07512D81E00890900E35AED /* RecordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		E07512D91E00890900E35AED /* SeeCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeCategoryViewController.swift; sourceTree = "<group>"; };
+		E07512DA1E00890900E35AED /* SeeCheckupCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeCheckupCollectionViewController.swift; sourceTree = "<group>"; };
+		E0A3EC701E012BF1003D981B /* LeftFootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftFootViewController.swift; sourceTree = "<group>"; };
+		E0A3EC721E012D8D003D981B /* leftFoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftFoot.png; sourceTree = "<group>"; };
+		E0A3EC731E012D8D003D981B /* rightFoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightFoot.png; sourceTree = "<group>"; };
+		E0A3EC761E01CB19003D981B /* cog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cog.png; sourceTree = "<group>"; };
+		E0A3EC771E01CB19003D981B /* cogs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cogs.png; sourceTree = "<group>"; };
+		E0A3EC7A1E01D874003D981B /* cogs_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cogs_white.png; sourceTree = "<group>"; };
+		E0A3EC7C1E023EA2003D981B /* LowSenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowSenseViewController.swift; sourceTree = "<group>"; };
+		E0B52B581DFA93C300CCCA65 /* palmFeet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palmFeet.jpg; sourceTree = "<group>"; };
+		E0B52B5A1DFB419800CCCA65 /* ankle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ankle.jpg; sourceTree = "<group>"; };
+		E0B52B5E1DFB42F400CCCA65 /* ankleInstructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ankleInstructions.png; sourceTree = "<group>"; };
+		E0B52B601DFB444D00CCCA65 /* AnkleInstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnkleInstructionsViewController.swift; sourceTree = "<group>"; };
+		E0B52B621DFB46D500CCCA65 /* AnkleCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnkleCameraViewController.swift; sourceTree = "<group>"; };
+		E0B52B641DFB4B2B00CCCA65 /* standingInstructions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = standingInstructions.jpg; sourceTree = "<group>"; };
+		E0B52B661DFB4D8E00CCCA65 /* StandingInstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingInstructionsViewController.swift; sourceTree = "<group>"; };
+		E0B52B681DFB563C00CCCA65 /* standing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = standing.jpg; sourceTree = "<group>"; };
+		E0B52B6A1DFB565500CCCA65 /* StandingCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandingCameraViewController.swift; sourceTree = "<group>"; };
+		E0B52B6C1DFB7D2700CCCA65 /* SensitivityInstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensitivityInstructionsViewController.swift; sourceTree = "<group>"; };
+		E0B9DFA61DF9F1CE00709D97 /* palmFoot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palmFoot.jpg; sourceTree = "<group>"; };
+		E0B9DFA81DF9F6AB00709D97 /* PalmCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalmCameraViewController.swift; sourceTree = "<group>"; };
+		E0B9DFAA1DFA12D500709D97 /* PulseInstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseInstructionsViewController.swift; sourceTree = "<group>"; };
+		E0B9DFAC1DFA17BD00709D97 /* PalmInstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalmInstructionsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E06D97D81DF0D65F00BC31B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65374B2B5C8C68D509F91A0A /* Pods_Pedal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97EF1DF0D65F00BC31B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB9730DF6D977E3D8197E84 /* Pods_PedalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97FA1DF0D65F00BC31B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07867EF06B998BB5BC465D14 /* Pods_PedalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		364023B6DB9546D95B1842E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D3FAAEF4B85F745FB1A84D1 /* Pods-Pedal.debug.xcconfig */,
+				1C870F4C2CE47838110B5C18 /* Pods-Pedal.release.xcconfig */,
+				231C177AF5F324497815513E /* Pods-PedalTests.debug.xcconfig */,
+				5C050A260E0EA5F88263EBA0 /* Pods-PedalTests.release.xcconfig */,
+				B3B1E5517927E97829FC3978 /* Pods-PedalUITests.debug.xcconfig */,
+				BE20F2ED48788F069C8C244F /* Pods-PedalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D98B1B2DC17AD1625C457CED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72AAC5DE80E4C497E550F7E8 /* Pods_Pedal.framework */,
+				059609FEBDFE78B33CDCF952 /* Pods_PedalTests.framework */,
+				8B4590BEE79A332498D018B5 /* Pods_PedalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E03A12881DF7430C00C27298 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E00E22291DFF2F3600442D0E /* Helper.swift */,
+				E03A12891DF7432F00C27298 /* Pulse.swift */,
+				E0224C771DF7955700BA4D95 /* Foot.swift */,
+				E03A12991DF746AB00C27298 /* Checkup.swift */,
+				E03A129B1DF7475D00C27298 /* Patient.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E03A129E1DF76C9900C27298 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0A3EC7A1E01D874003D981B /* cogs_white.png */,
+				E0A3EC761E01CB19003D981B /* cog.png */,
+				E0A3EC771E01CB19003D981B /* cogs.png */,
+				E0A3EC721E012D8D003D981B /* leftFoot.png */,
+				E0A3EC731E012D8D003D981B /* rightFoot.png */,
+				E0B52B681DFB563C00CCCA65 /* standing.jpg */,
+				E0B52B641DFB4B2B00CCCA65 /* standingInstructions.jpg */,
+				E0B52B5E1DFB42F400CCCA65 /* ankleInstructions.png */,
+				E0B52B5A1DFB419800CCCA65 /* ankle.jpg */,
+				E0B52B581DFA93C300CCCA65 /* palmFeet.jpg */,
+				E0B9DFA61DF9F1CE00709D97 /* palmFoot.jpg */,
+				E03A12A91DF76FF400C27298 /* PedalLogoRed.png */,
+				E03A12A71DF76F8600C27298 /* PedalLogoWhite.png */,
+				E03A129F1DF76CD200C27298 /* Comfortaa-Bold.ttf */,
+				E03A12A01DF76CD200C27298 /* Comfortaa-Light.ttf */,
+				E03A12A11DF76CD200C27298 /* Comfortaa-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E06D97D21DF0D65E00BC31B9 = {
+			isa = PBXGroup;
+			children = (
+				E06D97DD1DF0D65F00BC31B9 /* Pedal */,
+				E06D97F51DF0D65F00BC31B9 /* PedalTests */,
+				E06D98001DF0D65F00BC31B9 /* PedalUITests */,
+				E06D97DC1DF0D65F00BC31B9 /* Products */,
+				364023B6DB9546D95B1842E9 /* Pods */,
+				D98B1B2DC17AD1625C457CED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E06D97DC1DF0D65F00BC31B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06D97DB1DF0D65F00BC31B9 /* Pedal.app */,
+				E06D97F21DF0D65F00BC31B9 /* PedalTests.xctest */,
+				E06D97FD1DF0D65F00BC31B9 /* PedalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06D97DD1DF0D65F00BC31B9 /* Pedal */ = {
+			isa = PBXGroup;
+			children = (
+				E07512E81E008A2D00E35AED /* Appointment */,
+				E07512E51E00897A00E35AED /* Records */,
+				E03A12881DF7430C00C27298 /* Model */,
+				E07512D01E00878F00E35AED /* Utility */,
+				E06D97E21DF0D65F00BC31B9 /* Main.storyboard */,
+				E04740F51E29DE05002CC207 /* Sensitivity.storyboard */,
+				E04740F21E29D9B6002CC207 /* Camera.storyboard */,
+				E04740EF1E29D981002CC207 /* Pulse.storyboard */,
+				E04740EC1E29D899002CC207 /* Records.storyboard */,
+				E007ADA51E288E86002A3979 /* NoCheckupsViewController.swift */,
+				E04740EA1E296C76002CC207 /* NewPatientViewController.swift */,
+				E06D97E81DF0D65F00BC31B9 /* Assets.xcassets */,
+				E06D97EA1DF0D65F00BC31B9 /* LaunchScreen.storyboard */,
+				E06D97ED1DF0D65F00BC31B9 /* Info.plist */,
+				E06D97E51DF0D65F00BC31B9 /* Pedal.xcdatamodeld */,
+				E03A129E1DF76C9900C27298 /* Resources */,
+			);
+			path = Pedal;
+			sourceTree = "<group>";
+		};
+		E06D97F51DF0D65F00BC31B9 /* PedalTests */ = {
+			isa = PBXGroup;
+			children = (
+				E06D97F61DF0D65F00BC31B9 /* PedalTests.swift */,
+				E06D97F81DF0D65F00BC31B9 /* Info.plist */,
+			);
+			path = PedalTests;
+			sourceTree = "<group>";
+		};
+		E06D98001DF0D65F00BC31B9 /* PedalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E06D98011DF0D65F00BC31B9 /* PedalUITests.swift */,
+				E06D98031DF0D65F00BC31B9 /* Info.plist */,
+			);
+			path = PedalUITests;
+			sourceTree = "<group>";
+		};
+		E07512CD1E00873D00E35AED /* Pulse */ = {
+			isa = PBXGroup;
+			children = (
+				E0B9DFAA1DFA12D500709D97 /* PulseInstructionsViewController.swift */,
+				E0224C7B1DF9DF6200BA4D95 /* PulseQ1ViewController.swift */,
+				E0224C7D1DF9E93D00BA4D95 /* PulseQ2ViewController.swift */,
+				E0224C7F1DF9ECCD00BA4D95 /* PulseQ3ViewController.swift */,
+			);
+			name = Pulse;
+			sourceTree = "<group>";
+		};
+		E07512CE1E00875400E35AED /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				E0B9DFAC1DFA17BD00709D97 /* PalmInstructionsViewController.swift */,
+				E0B9DFA81DF9F6AB00709D97 /* PalmCameraViewController.swift */,
+				E0B52B601DFB444D00CCCA65 /* AnkleInstructionsViewController.swift */,
+				E0B52B621DFB46D500CCCA65 /* AnkleCameraViewController.swift */,
+				E0B52B661DFB4D8E00CCCA65 /* StandingInstructionsViewController.swift */,
+				E0B52B6A1DFB565500CCCA65 /* StandingCameraViewController.swift */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		E07512CF1E00877D00E35AED /* Sensitivity */ = {
+			isa = PBXGroup;
+			children = (
+				E0B52B6C1DFB7D2700CCCA65 /* SensitivityInstructionsViewController.swift */,
+				E00E222F1DFF8E3900442D0E /* SensitivityViewController.swift */,
+				E0A3EC7C1E023EA2003D981B /* LowSenseViewController.swift */,
+				E00E222D1DFF3B2A00442D0E /* SmothView.swift */,
+			);
+			name = Sensitivity;
+			sourceTree = "<group>";
+		};
+		E07512D01E00878F00E35AED /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */,
+				E06D97E01DF0D65F00BC31B9 /* ViewController.swift */,
+				BD5A42091E236092007EB1B0 /* SettingsViewController.swift */,
+				E03A12931DF744EA00C27298 /* StorageController.swift */,
+				E07512D31E00890900E35AED /* Email.swift */,
+				E07512D41E00890900E35AED /* LineChart.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		E07512E51E00897A00E35AED /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				E07512D71E00890900E35AED /* RecordsTableViewCell.swift */,
+				E07512D81E00890900E35AED /* RecordsViewController.swift */,
+				E07512E71E0089F900E35AED /* CheckByDate */,
+				E07512E61E0089CA00E35AED /* Categories */,
+			);
+			name = Records;
+			sourceTree = "<group>";
+		};
+		E07512E61E0089CA00E35AED /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E07512D51E00890900E35AED /* PulseView.swift */,
+				E07512D61E00890900E35AED /* PulseViewController.swift */,
+				E07512D11E00890900E35AED /* CategoryCollectionViewCell.swift */,
+				E07512D91E00890900E35AED /* SeeCategoryViewController.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		E07512E71E0089F900E35AED /* CheckByDate */ = {
+			isa = PBXGroup;
+			children = (
+				E07512D21E00890900E35AED /* CheckupCollectionViewCell.swift */,
+				E07512DA1E00890900E35AED /* SeeCheckupCollectionViewController.swift */,
+			);
+			name = CheckByDate;
+			sourceTree = "<group>";
+		};
+		E07512E81E008A2D00E35AED /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				E0A3EC701E012BF1003D981B /* LeftFootViewController.swift */,
+				E07512CD1E00873D00E35AED /* Pulse */,
+				E07512CE1E00875400E35AED /* Pictures */,
+				E07512CF1E00877D00E35AED /* Sensitivity */,
+			);
+			name = Appointment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E06D97DA1DF0D65F00BC31B9 /* Pedal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06D98061DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "Pedal" */;
+			buildPhases = (
+				F1736536200E5C5CBB654F7A /* [CP] Check Pods Manifest.lock */,
+				E06D97D71DF0D65F00BC31B9 /* Sources */,
+				E06D97D81DF0D65F00BC31B9 /* Frameworks */,
+				E06D97D91DF0D65F00BC31B9 /* Resources */,
+				B66E0A920DBA4BD148486232 /* [CP] Embed Pods Frameworks */,
+				F9E227134692D9DC2097CB5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pedal;
+			productName = Pedal;
+			productReference = E06D97DB1DF0D65F00BC31B9 /* Pedal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E06D97F11DF0D65F00BC31B9 /* PedalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06D98091DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalTests" */;
+			buildPhases = (
+				5782E9EC21E3D76317ACA5EA /* [CP] Check Pods Manifest.lock */,
+				E06D97EE1DF0D65F00BC31B9 /* Sources */,
+				E06D97EF1DF0D65F00BC31B9 /* Frameworks */,
+				E06D97F01DF0D65F00BC31B9 /* Resources */,
+				EC86B102F21986FE3A55CD56 /* [CP] Embed Pods Frameworks */,
+				0D47777E83BA0E0A7916023B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06D97F41DF0D65F00BC31B9 /* PBXTargetDependency */,
+			);
+			name = PedalTests;
+			productName = PedalTests;
+			productReference = E06D97F21DF0D65F00BC31B9 /* PedalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E06D97FC1DF0D65F00BC31B9 /* PedalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06D980C1DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalUITests" */;
+			buildPhases = (
+				23FDDF349AAEBD02E1E688D0 /* [CP] Check Pods Manifest.lock */,
+				E06D97F91DF0D65F00BC31B9 /* Sources */,
+				E06D97FA1DF0D65F00BC31B9 /* Frameworks */,
+				E06D97FB1DF0D65F00BC31B9 /* Resources */,
+				53CC166E839F02DA62AC6E41 /* [CP] Embed Pods Frameworks */,
+				77227F017295231D8A58A502 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06D97FF1DF0D65F00BC31B9 /* PBXTargetDependency */,
+			);
+			name = PedalUITests;
+			productName = PedalUITests;
+			productReference = E06D97FD1DF0D65F00BC31B9 /* PedalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E06D97D31DF0D65F00BC31B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Madhur Malhotra";
+				TargetAttributes = {
+					E06D97DA1DF0D65F00BC31B9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5M7MAFMP3Z;
+						ProvisioningStyle = Automatic;
+					};
+					E06D97F11DF0D65F00BC31B9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E06D97DA1DF0D65F00BC31B9;
+					};
+					E06D97FC1DF0D65F00BC31B9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E06D97DA1DF0D65F00BC31B9;
+					};
+				};
+			};
+			buildConfigurationList = E06D97D61DF0D65F00BC31B9 /* Build configuration list for PBXProject "Pedal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E06D97D21DF0D65E00BC31B9;
+			productRefGroup = E06D97DC1DF0D65F00BC31B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E06D97DA1DF0D65F00BC31B9 /* Pedal */,
+				E06D97F11DF0D65F00BC31B9 /* PedalTests */,
+				E06D97FC1DF0D65F00BC31B9 /* PedalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E06D97D91DF0D65F00BC31B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A3EC781E01CB19003D981B /* cog.png in Resources */,
+				E0B52B5F1DFB42F400CCCA65 /* ankleInstructions.png in Resources */,
+				E0B52B691DFB563C00CCCA65 /* standing.jpg in Resources */,
+				E03A12A21DF76CD200C27298 /* Comfortaa-Bold.ttf in Resources */,
+				E0B52B5C1DFB419800CCCA65 /* ankle.jpg in Resources */,
+				E0B52B591DFA93C300CCCA65 /* palmFeet.jpg in Resources */,
+				E06D97EC1DF0D65F00BC31B9 /* LaunchScreen.storyboard in Resources */,
+				E04740F71E29DE05002CC207 /* Sensitivity.storyboard in Resources */,
+				E0A3EC751E012D8D003D981B /* rightFoot.png in Resources */,
+				E0A3EC741E012D8D003D981B /* leftFoot.png in Resources */,
+				E04740F11E29D981002CC207 /* Pulse.storyboard in Resources */,
+				E0B52B651DFB4B2B00CCCA65 /* standingInstructions.jpg in Resources */,
+				E0B9DFA71DF9F1CE00709D97 /* palmFoot.jpg in Resources */,
+				E0A3EC791E01CB19003D981B /* cogs.png in Resources */,
+				E06D97E91DF0D65F00BC31B9 /* Assets.xcassets in Resources */,
+				E06D97E41DF0D65F00BC31B9 /* Main.storyboard in Resources */,
+				E0A3EC7B1E01D874003D981B /* cogs_white.png in Resources */,
+				E04740EE1E29D899002CC207 /* Records.storyboard in Resources */,
+				E03A12A81DF76F8600C27298 /* PedalLogoWhite.png in Resources */,
+				E03A12AA1DF76FF400C27298 /* PedalLogoRed.png in Resources */,
+				E04740F41E29D9B6002CC207 /* Camera.storyboard in Resources */,
+				E03A12A41DF76CD200C27298 /* Comfortaa-Regular.ttf in Resources */,
+				E03A12A31DF76CD200C27298 /* Comfortaa-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97F01DF0D65F00BC31B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97FB1DF0D65F00BC31B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D47777E83BA0E0A7916023B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedalTests/Pods-PedalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23FDDF349AAEBD02E1E688D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53CC166E839F02DA62AC6E41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedalUITests/Pods-PedalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5782E9EC21E3D76317ACA5EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77227F017295231D8A58A502 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedalUITests/Pods-PedalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66E0A920DBA4BD148486232 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pedal/Pods-Pedal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC86B102F21986FE3A55CD56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedalTests/Pods-PedalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1736536200E5C5CBB654F7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E227134692D9DC2097CB5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pedal/Pods-Pedal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E06D97D71DF0D65F00BC31B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0224C7C1DF9DF6200BA4D95 /* PulseQ1ViewController.swift in Sources */,
+				E00E22301DFF8E3900442D0E /* SensitivityViewController.swift in Sources */,
+				E0224C7E1DF9E93D00BA4D95 /* PulseQ2ViewController.swift in Sources */,
+				E007ADA61E288E86002A3979 /* NoCheckupsViewController.swift in Sources */,
+				E0224C781DF7955700BA4D95 /* Foot.swift in Sources */,
+				E00E222E1DFF3B2A00442D0E /* SmothView.swift in Sources */,
+				E0B9DFAD1DFA17BD00709D97 /* PalmInstructionsViewController.swift in Sources */,
+				E0B52B6D1DFB7D2700CCCA65 /* SensitivityInstructionsViewController.swift in Sources */,
+				E06D97E11DF0D65F00BC31B9 /* ViewController.swift in Sources */,
+				E0B52B6B1DFB565500CCCA65 /* StandingCameraViewController.swift in Sources */,
+				E0A3EC711E012BF1003D981B /* LeftFootViewController.swift in Sources */,
+				E0224C801DF9ECCD00BA4D95 /* PulseQ3ViewController.swift in Sources */,
+				E03A129C1DF7475D00C27298 /* Patient.swift in Sources */,
+				E06D97DF1DF0D65F00BC31B9 /* AppDelegate.swift in Sources */,
+				E07512E01E00890900E35AED /* PulseViewController.swift in Sources */,
+				E0B52B631DFB46D500CCCA65 /* AnkleCameraViewController.swift in Sources */,
+				E07512E41E00890900E35AED /* SeeCheckupCollectionViewController.swift in Sources */,
+				E07512E31E00890900E35AED /* SeeCategoryViewController.swift in Sources */,
+				E0B52B611DFB444D00CCCA65 /* AnkleInstructionsViewController.swift in Sources */,
+				E07512E11E00890900E35AED /* RecordsTableViewCell.swift in Sources */,
+				E03A12941DF744EA00C27298 /* StorageController.swift in Sources */,
+				E06D97E71DF0D65F00BC31B9 /* Pedal.xcdatamodeld in Sources */,
+				E07512DD1E00890900E35AED /* Email.swift in Sources */,
+				E07512DB1E00890900E35AED /* CategoryCollectionViewCell.swift in Sources */,
+				BD5A420A1E236092007EB1B0 /* SettingsViewController.swift in Sources */,
+				E07512DE1E00890900E35AED /* LineChart.swift in Sources */,
+				E0B9DFAB1DFA12D500709D97 /* PulseInstructionsViewController.swift in Sources */,
+				E07512DF1E00890900E35AED /* PulseView.swift in Sources */,
+				E0B9DFA91DF9F6AB00709D97 /* PalmCameraViewController.swift in Sources */,
+				E04740EB1E296C76002CC207 /* NewPatientViewController.swift in Sources */,
+				E0B52B671DFB4D8E00CCCA65 /* StandingInstructionsViewController.swift in Sources */,
+				E07512DC1E00890900E35AED /* CheckupCollectionViewCell.swift in Sources */,
+				E03A128A1DF7432F00C27298 /* Pulse.swift in Sources */,
+				E03A129A1DF746AB00C27298 /* Checkup.swift in Sources */,
+				E00E222A1DFF2F3600442D0E /* Helper.swift in Sources */,
+				E0A3EC7D1E023EA2003D981B /* LowSenseViewController.swift in Sources */,
+				E07512E21E00890900E35AED /* RecordsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97EE1DF0D65F00BC31B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D97F71DF0D65F00BC31B9 /* PedalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97F91DF0D65F00BC31B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D98021DF0D65F00BC31B9 /* PedalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E06D97F41DF0D65F00BC31B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E06D97DA1DF0D65F00BC31B9 /* Pedal */;
+			targetProxy = E06D97F31DF0D65F00BC31B9 /* PBXContainerItemProxy */;
+		};
+		E06D97FF1DF0D65F00BC31B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E06D97DA1DF0D65F00BC31B9 /* Pedal */;
+			targetProxy = E06D97FE1DF0D65F00BC31B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E04740EC1E29D899002CC207 /* Records.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E04740ED1E29D899002CC207 /* Base */,
+			);
+			name = Records.storyboard;
+			sourceTree = "<group>";
+		};
+		E04740EF1E29D981002CC207 /* Pulse.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E04740F01E29D981002CC207 /* Base */,
+			);
+			name = Pulse.storyboard;
+			sourceTree = "<group>";
+		};
+		E04740F21E29D9B6002CC207 /* Camera.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E04740F31E29D9B6002CC207 /* Base */,
+			);
+			name = Camera.storyboard;
+			sourceTree = "<group>";
+		};
+		E04740F51E29DE05002CC207 /* Sensitivity.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E04740F61E29DE05002CC207 /* Base */,
+			);
+			name = Sensitivity.storyboard;
+			sourceTree = "<group>";
+		};
+		E06D97E21DF0D65F00BC31B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06D97E31DF0D65F00BC31B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E06D97EA1DF0D65F00BC31B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06D97EB1DF0D65F00BC31B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E06D98041DF0D65F00BC31B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E06D98051DF0D65F00BC31B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E06D98071DF0D65F00BC31B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3FAAEF4B85F745FB1A84D1 /* Pods-Pedal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5M7MAFMP3Z;
+				INFOPLIST_FILE = Pedal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.Pedal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E06D98081DF0D65F00BC31B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C870F4C2CE47838110B5C18 /* Pods-Pedal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5M7MAFMP3Z;
+				INFOPLIST_FILE = Pedal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.Pedal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E06D980A1DF0D65F00BC31B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231C177AF5F324497815513E /* Pods-PedalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PedalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pedal.app/Pedal";
+			};
+			name = Debug;
+		};
+		E06D980B1DF0D65F00BC31B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C050A260E0EA5F88263EBA0 /* Pods-PedalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PedalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pedal.app/Pedal";
+			};
+			name = Release;
+		};
+		E06D980D1DF0D65F00BC31B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B1E5517927E97829FC3978 /* Pods-PedalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PedalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pedal;
+			};
+			name = Debug;
+		};
+		E06D980E1DF0D65F00BC31B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE20F2ED48788F069C8C244F /* Pods-PedalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PedalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pedal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E06D97D61DF0D65F00BC31B9 /* Build configuration list for PBXProject "Pedal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D98041DF0D65F00BC31B9 /* Debug */,
+				E06D98051DF0D65F00BC31B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06D98061DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "Pedal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D98071DF0D65F00BC31B9 /* Debug */,
+				E06D98081DF0D65F00BC31B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06D98091DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D980A1DF0D65F00BC31B9 /* Debug */,
+				E06D980B1DF0D65F00BC31B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06D980C1DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D980D1DF0D65F00BC31B9 /* Debug */,
+				E06D980E1DF0D65F00BC31B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E06D97E51DF0D65F00BC31B9 /* Pedal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E06D97E61DF0D65F00BC31B9 /* Pedal.xcdatamodel */,
+			);
+			currentVersion = E06D97E61DF0D65F00BC31B9 /* Pedal.xcdatamodel */;
+			path = Pedal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E06D97D31DF0D65F00BC31B9 /* Project object */;
+}
