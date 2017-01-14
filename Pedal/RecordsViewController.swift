@@ -160,6 +160,11 @@ extension RecordsViewController: UITableViewDelegate, UITableViewDataSource{
             if selectedCategory == .pulse {
                 performSegue(withIdentifier: "seePulse", sender: self)
             }
+                
+            else if selectedCategory == .sensitivity{
+                performSegue(withIdentifier: "seeSensitivity", sender: self)
+            }
+                
             
             else{
                 performSegue(withIdentifier: "seeCategory", sender: self)
