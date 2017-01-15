@@ -36,17 +36,12 @@ class SensitivityCollectionViewController: UIViewController {
             dates.append(dateFormatter.string(from: c.date))
             dates.append(dateFormatter.string(from: c.date))
         }
-        
-        
-        
-   
-        
-        
-        
 
-        // Do any additional setup after loading the view.
     }
 
+    @IBAction func segmentedControl(_ sender: UISegmentedControl) {
+        self.collectionView.reloadData()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
